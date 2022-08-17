@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+<body>
+    <div class="calc_container">
+       <div class="calc">
+        <div class="calc-contents">
+            <div class="result-container">
+             <div class="operation-space">
+                <input type="text" id="enteredNum" class="input-container" value="">
+             </div>
+             <div id="result-space" class="result-space">
+
+            </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn" id="AC" value="Ac" onclick="operation('clear')">AC</button>
+                <button class="btn" id="Back" value="Back">Back</button>
+                <button class="btn" id="per" value="%" onclick="operation('percentage')">%</button>
+                <button class="btn" id="div" value="/" onclick="operation('division')">/</button>
+                <button class="btn" id="1" value="1" onclick="onNumberClick(1)">1</button>
+                <button class="btn" id="2"value="2" onclick="onNumberClick(2)">2</button>
+                <button class="btn" id="3"value="3" onclick="onNumberClick(3)">3</button>
+                <button class="btn" id="add"value="+" onclick="operation('add')">+</button>
+                <button class="btn" id="4"value="4" onclick="onNumberClick(4)">4</button>
+                <button class="btn" id="5"value="5" onclick="onNumberClick(5)">5</button>
+                <button class="btn" id="6"value="6" onclick="onNumberClick(6)">6</button>
+                <button class="btn" id="sub" value="-" onclick="operation('sub')">-</button>
+                <button class="btn" id="7"value="7" onclick="onNumberClick(7)">7</button>
+                <button class="btn" id="8" value="8" onclick="onNumberClick(8)">8</button>
+                <button class="btn" id="9"value="9" onclick="onNumberClick(9)">9</button>
+                <button class="btn" id="mul"value="*" onclick="operation('mul')">*</button>
+                <button class="btn" id="0"value="0" onclick="onNumberClick(0)">0</button>
+                <button class="btn" id="00"value="00" onclick="onNumberClick(00)">00</button>
+                <button class="btn" id="dot" value=".">.</button>
+                <button class="btn" id="equal" value="=" onclick="result()">=</button>
+            </div>
+          
+        </div>
+       </div>
+    </div>
+
+</body>
+</html>
